@@ -43,7 +43,10 @@ The "IAU Car Sale" project PHP developed.The main goal of the project is to prov
   - Adaptable interface for desktop, tablet, and mobile devices.
 
 ---
+## Project Overview
+![Ekran görüntüsü](https://github.com/mehmetemingocen/IAUSaleACar/blob/main/ER_DIAGRAM.png)
 
+---
 ## Functional & Nonfunctional Requirements
 
 ### Functional Requirements
