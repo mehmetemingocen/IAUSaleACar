@@ -1,4 +1,4 @@
-# IAU CAR SALE PROJECT
+# CAR SALE PROJECT in PHP
 
 ## Overview
 The "IAU Car Sale" project PHP developed.The main goal of the project is to provide a platform where users can manage car sales, become members, log in, browse available cars, and perform CRUD (Create, Read, Update, Delete) operations via the admin panel. This document outlines the project's objectives, achievements, technologies used, and setup instructions.
