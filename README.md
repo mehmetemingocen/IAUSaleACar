@@ -43,7 +43,55 @@ The "IAU Car Sale" project PHP developed.The main goal of the project is to prov
   - Adaptable interface for desktop, tablet, and mobile devices.
 
 ---
-## Project Overview
+## Database Design
+
+This database is designed to manage car sales efficiently. It includes three main tables: `admin`, `cars`, and `users`. Below, you will find the general descriptions of the database and its key features.
+
+---
+
+## General Database Descriptions
+
+### Database Name
+`car_sales`
+
+### Tables and Descriptions
+
+1. **admin Table**
+   - **Columns**:
+     - `id` (Primary Key)
+     - `name` (Admin Name)
+     - `password` (Hashed Password)
+
+2. **cars Table**
+   - **Columns**:
+     - `id` (Primary Key)
+     - `first_name` (Seller's First Name)
+     - `last_name` (Seller's Last Name)
+     - `brand` (Car Brand)
+     - `km` (Car Mileage in Kilometers)
+     - `year` (Manufacturing Year)
+
+3. **users Table**
+   - **Columns**:
+     - `id` (Primary Key)
+     - `username` (User's Username)
+     - `password` (Hashed Password)
+
+---
+
+## Key Features
+
+1. **Modular Design**
+   - Tables are structured to focus on specific functions, ensuring clarity and maintainability.
+
+2. **Password Security**
+   - User and admin passwords are stored in a hashed format to enhance security.
+
+3. **Scalability**
+   - The database structure allows for the easy addition of new attributes, such as `fuel_type` or `color` in the `cars` table.
+  
+## ER Diagram 
+
 ![Ekran görüntüsü](https://github.com/mehmetemingocen/IAUSaleACar/blob/main/ER_DIAGRAM.png)
 
 ---
@@ -130,6 +178,17 @@ The "IAU Car Sale" project PHP developed.The main goal of the project is to prov
 ### Testing the Project
 - Verify features like registration, login, and CRUD operations in the live environment.
 - Test admin functionalities and ensure smooth operation.
+
+---
+### UI Design
+![Ekran görüntüsü](https://github.com/mehmetemingocen/IAUSaleACar/blob/main/Login%20Page.png)
+![Ekran görüntüsü](https://github.com/mehmetemingocen/IAUSaleACar/blob/main/Homepage.png)
+![Ekran görüntüsü](https://github.com/mehmetemingocen/IAUSaleACar/blob/main/Admin%20Page.png)
+![Ekran görüntüsü](https://github.com/mehmetemingocen/IAUSaleACar/blob/main/Cars%20on%20Sale%20Page.png)
+![Ekran görüntüsü](https://github.com/mehmetemingocen/IAUSaleACar/blob/main/CRUD.png)
+
+
+
 
 ---
 
